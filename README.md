@@ -10,7 +10,7 @@ This project contains SQL scripts related to *database schema design, CRUD opera
 
 ## SQL Files Overview  
 
-### 1. *vandana_project.sql*  
+### 1. *Project.sql*  
 - Defines the *database schema*, including table structures, data types, primary keys, and foreign key relationships.  
 - Ensures database normalization and integrity.  
 - Example tables:  
@@ -19,7 +19,7 @@ This project contains SQL scripts related to *database schema design, CRUD opera
   - Orders  
   - Transactions  
 
-### 2. *vandana_project_crud_test.sql*  
+### 2. *Project_crud_test.sql*  
 - Implements *CRUD operations* to validate database functionality.  
 - Includes:  
   - *CREATE* – Adding new records to tables.  
@@ -28,7 +28,7 @@ This project contains SQL scripts related to *database schema design, CRUD opera
   - *DELETE* – Removing data securely.  
 - Helps in verifying *data consistency and error handling*.  
 
-### 3. *vandana_stress_testing.sql*  
+### 3. *Stress_testing.sql*  
 - Contains queries to *simulate high-load scenarios* and evaluate database performance.  
 - Includes:  
   - *Bulk Inserts* – Testing large data ingestion.  
@@ -45,10 +45,7 @@ This project contains SQL scripts related to *database schema design, CRUD opera
 - *CRUD validation* ensures smooth user interactions.  
 - *Stress testing* highlights performance improvements.  
 
-## How to Use  
-1. *Set up the database:* Run vandana_project.sql to create tables.  
-2. *Test CRUD operations:* Execute vandana_project_crud_test.sql.  
-3. *Perform stress testing:* Run vandana_stress_testing.sql and analyze results.  
+
 
 ## Contributors  
 - *Shefali Pujara*  
